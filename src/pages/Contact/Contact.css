@@ -198,7 +198,7 @@
 }
 
 /* Social Links */
-.social-links {
+.contact .social-links {
   display: flex;
   flex-direction: column;
   gap: 16px;
