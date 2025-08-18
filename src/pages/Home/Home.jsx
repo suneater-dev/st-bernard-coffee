@@ -6,9 +6,9 @@ import './Home.css';
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    '/assets/slide-1.jpg',
-    '/assets/slide-2.jpg',
-    '/assets/slide-3.jpg',
+    '/assets/slide-1.webp',
+    '/assets/slide-2.webp',
+    '/assets/slide-3.webp',
     '/assets/slide-4.webp',
     '/assets/slide-5.webp',
     '/assets/slide-6.webp'
@@ -72,6 +72,7 @@ const Home = () => {
               <h2>Our Story</h2>
               <p>Inspired by the St. Bernard dog—an Alpine rescue icon known for its gentle nature, loyalty, and warmth—St. Bernard Coffee was created with the same spirit: to give warmth.</p>
               <p>Just as St. Bernards offered comfort and warmth to travelers in their most critical moments, we bring that legacy of care and companionship into every coffee experience. Founded in Bali, we've grown from a single location to three thriving cafés, each embodying our philosophy of warmth, hospitality, and true companionship.</p>
+              <p>At St. Bernard Coffee, we're not just serving coffee—we're serving warmth, friendship, and a place where you truly belong.</p>
               <Link to="/about" className="btn">Learn More About Us</Link>
             </div>
             <div className="about-image animate-on-scroll-right">
@@ -87,7 +88,7 @@ const Home = () => {
           
           <div className="best-sellers-grid">
             <div className="best-seller-item stagger-child animate-on-scroll stagger-1">
-              <img src="/assets/Latte.jpg" alt="Signature Latte" className="best-seller-image" />
+              <img src="/assets/Latte.webp" alt="Signature Latte" className="best-seller-image" />
               <div className="best-seller-content">
                 <h3>Signature Latte</h3>
                 <p>Creamy steamed milk with rich espresso</p>
@@ -96,7 +97,7 @@ const Home = () => {
             </div>
             
             <div className="best-seller-item stagger-child animate-on-scroll stagger-2">
-              <img src="/assets/beautiful mistake.jpg" alt="Beautiful Mistake" className="best-seller-image" />
+              <img src="/assets/beautiful mistake.webp" alt="Beautiful Mistake" className="best-seller-image" />
               <div className="best-seller-content">
                 <h3>Beautiful Mistake</h3>
                 <p>Black coffee with fresh orange slice</p>
@@ -105,7 +106,7 @@ const Home = () => {
             </div>
             
             <div className="best-seller-item stagger-child animate-on-scroll stagger-3">
-              <img src="/assets/v60.jpg" alt="Single Origin" className="best-seller-image" />
+              <img src="/assets/v60.webp" alt="Single Origin" className="best-seller-image" />
               <div className="best-seller-content">
                 <h3>Single Origin</h3>
                 <p>Pour-over perfection with premium beans</p>
@@ -114,7 +115,7 @@ const Home = () => {
             </div>
             
             <div className="best-seller-item stagger-child animate-on-scroll stagger-4">
-              <img src="/assets/bread.jpg" alt="Artisan Sourdough" className="best-seller-image" />
+              <img src="/assets/bread.webp" alt="Artisan Sourdough" className="best-seller-image" />
               <div className="best-seller-content">
                 <h3>Artisan Sourdough</h3>
                 <p>Freshly baked daily with organic flour</p>

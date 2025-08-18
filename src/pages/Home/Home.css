@@ -409,7 +409,11 @@
   }
   
   .about-image {
-    height: 200px;
+    display: none;
+  }
+  
+  .about-content {
+    grid-column: 1 / -1;
   }
   
   .cafe-locator-header {
