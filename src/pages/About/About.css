@@ -65,50 +65,57 @@
 }
 
 .philosophy-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
-  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .philosophy-card {
-  background-color: #FFFFFF;
-  padding: 50px 40px;
-  border-radius: 8px;
+  background: none;
+  padding: 0;
+  border-radius: 0;
   text-align: center;
-  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: none;
   transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  border: none;
+  flex: 1;
+  max-width: 250px;
 }
 
 .philosophy-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+  box-shadow: none;
 }
 
 .philosophy-icon {
-  font-size: 52px;
+  font-size: 48px;
   margin-bottom: 24px;
   display: block;
-  opacity: 0.9;
+  opacity: 0.8;
+  color: #000000;
+  line-height: 1;
 }
 
 .philosophy-card h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
-  font-weight: 400;
-  margin-bottom: 20px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
   color: #000000;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
+  text-transform: capitalize;
 }
 
 .philosophy-card p {
-  font-size: 17px;
-  line-height: 1.7;
-  color: #555555;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #666666;
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
 /* Growth Story Section */
@@ -488,12 +495,13 @@
   }
   
   .philosophy-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
   }
   
   .philosophy-card {
-    padding: 40px 30px;
+    max-width: 300px;
   }
   
   .philosophy-icon {

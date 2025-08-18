@@ -23,7 +23,7 @@ const About = () => {
               <p>Founded with passion in the heart of Seminyak, we've grown from a single location to three thriving cafés across Bali, elevating Indonesia's rich coffee heritage through modern brewing techniques while maintaining that essential spirit of warmth and hospitality that defines us.</p>
             </div>
             <div className="story-image-container animate-on-scroll-right">
-              <img src="/assets/slide-3.jpg" alt="St. Bernard Coffee Heritage" className="story-image" />
+              <img src="/assets/seminyak-store.webp" alt="St. Bernard Coffee Heritage" className="story-image" />
             </div>
           </div>
         </div>
@@ -90,20 +90,20 @@ const About = () => {
           <div className="philosophy-grid">
             <div className="philosophy-card animate-on-scroll stagger-1">
               <div className="philosophy-icon">☕</div>
-              <h3>Warmth</h3>
-              <p>Everyone who walks in isn't just a customer, but a friend. We believe in creating a welcoming atmosphere where every person feels valued and comfortable.</p>
+              <h3>Exceptional Quality</h3>
+              <p>Premium single-origin beans</p>
             </div>
             
             <div className="philosophy-card animate-on-scroll stagger-2">
-              <div className="philosophy-icon">🤝</div>
-              <h3>Hospitality</h3>
-              <p>We love remembering your name, your favorite order, and making every visit feel personal. True hospitality is about the connections we build with each guest.</p>
+              <div className="philosophy-icon">🌿</div>
+              <h3>Ethically Sourced</h3>
+              <p>Supporting local farmers</p>
             </div>
             
             <div className="philosophy-card animate-on-scroll stagger-3">
-              <div className="philosophy-icon">❤️</div>
-              <h3>Companionship</h3>
-              <p>Whether you're here to chill, laugh, or catch up, our café is your go-to spot. We're here to be part of your daily moments and special memories.</p>
+              <div className="philosophy-icon">🔥</div>
+              <h3>Small Batch Roasting</h3>
+              <p>Freshly roasted daily</p>
             </div>
           </div>
         </div>
