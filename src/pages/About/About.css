@@ -42,58 +42,73 @@
   padding: 120px 0;
 }
 
-.philosophy-header {
+.section-header {
   text-align: center;
-  max-width: 800px;
-  margin: 0 auto 80px;
+  margin-bottom: 80px;
 }
 
-.philosophy-header h2 {
+.section-header h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 42px;
-  font-weight: 400;
-  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: 300;
   color: #000000;
+  margin-bottom: 20px;
+  letter-spacing: -0.02em;
 }
 
-.philosophy-header p {
-  font-size: 18px;
+.section-header p {
+  font-size: 20px;
   color: #666666;
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .philosophy-card {
   background-color: #FFFFFF;
-  padding: 48px 32px;
+  padding: 50px 40px;
   border-radius: 8px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .philosophy-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
 }
 
 .philosophy-icon {
-  font-size: 48px;
-  margin-bottom: 16px;
+  font-size: 52px;
+  margin-bottom: 24px;
   display: block;
+  opacity: 0.9;
 }
 
 .philosophy-card h3 {
   font-family: 'Playfair Display', serif;
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
   color: #000000;
+  letter-spacing: -0.01em;
 }
 
 .philosophy-card p {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.7;
   color: #555555;
   margin: 0;
+  font-weight: 300;
 }
 
 /* Growth Story Section */
@@ -153,7 +168,7 @@
   width: 1px;
   background: linear-gradient(180deg, #E8E4D9 0%, #D4CFC4 50%, #E8E4D9 100%);
   transform: translateX(-50%);
-  z-index: 1;
+  z-index: 0;
 }
 
 .timeline-item {
@@ -227,7 +242,7 @@
   max-width: 400px;
   z-index: 10;
   position: relative;
-  background: rgba(255, 255, 255, 0.95);
+  background: #FFFFFF;
   border-radius: 8px;
   padding: 40px 60px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
@@ -456,12 +471,17 @@
     margin-top: 60px;
   }
   
+  .philosophy-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
   .philosophy-card {
-    padding: 32px 24px;
+    padding: 40px 30px;
   }
   
   .philosophy-icon {
-    font-size: 36px;
+    font-size: 44px;
   }
   
   .story-image {

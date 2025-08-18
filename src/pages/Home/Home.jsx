@@ -67,8 +67,8 @@ const Home = () => {
           <div className="grid grid-2">
             <div className="about-content animate-on-scroll-left">
               <h2>Our Story</h2>
-              <p>Founded with a vision to bring world-class coffee culture to Bali, St. Bernard Coffee represents the perfect fusion of traditional Indonesian coffee heritage and modern brewing excellence.</p>
-              <p>From our carefully selected single-origin beans to our artisanal brewing methods, every cup tells a story of quality, craftsmanship, and our commitment to creating exceptional coffee experiences.</p>
+              <p>Inspired by the St. Bernard dog—an Alpine rescue icon known for its gentle nature, loyalty, and warmth—St. Bernard Coffee was created with the same spirit: to give warmth.</p>
+              <p>Just as St. Bernards offered comfort and warmth to travelers in their most critical moments, we bring that legacy of care and companionship into every coffee experience. Founded in Bali, we've grown from a single location to three thriving cafés, each embodying our philosophy of warmth, hospitality, and true companionship.</p>
               <Link to="/about" className="btn">Learn More About Us</Link>
             </div>
             <div className="about-image animate-on-scroll-right">

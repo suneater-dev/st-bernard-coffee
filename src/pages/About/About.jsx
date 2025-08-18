@@ -15,12 +15,12 @@ const About = () => {
         <div className="container">
           <div className="grid grid-2">
             <div className="story-content animate-on-scroll-left">
-              <h2>Our Journey</h2>
-              <p>St. Bernard Coffee began as a vision to elevate Indonesia's rich coffee heritage through modern brewing techniques and uncompromising quality standards. Founded with passion in the heart of Seminyak, we've grown from a single location to three thriving cafés across Bali.</p>
+              <h2>Our Story</h2>
+              <p>Inspired by the St. Bernard dog—an Alpine rescue icon known for its gentle nature, loyalty, and warmth—St. Bernard Coffee was created with the same spirit: to give warmth.</p>
               
-              <p>Our commitment to excellence starts with direct relationships with local farmers in Java and Sumatra, ensuring fair prices while securing the finest single-origin beans. Each cup represents our dedication to sustainability, quality, and the artistry of coffee crafting.</p>
+              <p>For centuries, St. Bernards were not only guardians but also companions who saved travelers trapped in the snow. They didn't just rescue; they offered comfort and warmth in the most critical moments. This legacy of care and companionship is what we bring into our coffee experience.</p>
               
-              <p>What sets us apart is our unique approach to blending traditional Indonesian coffee culture with international café standards, creating an atmosphere that appeals to both discerning locals and international coffee enthusiasts.</p>
+              <p>Founded with passion in the heart of Seminyak, we've grown from a single location to three thriving cafés across Bali, elevating Indonesia's rich coffee heritage through modern brewing techniques while maintaining that essential spirit of warmth and hospitality that defines us.</p>
             </div>
             <div className="story-image-container animate-on-scroll-right">
               <img src="/assets/slide-3.jpg" alt="St. Bernard Coffee Heritage" className="story-image" />
@@ -75,6 +75,35 @@ const About = () => {
                 <h3>Expansion & Innovation</h3>
                 <p>With proven success across three locations and growing recognition, we're positioned for strategic expansion while continuing to innovate our coffee experiences and sustainable practices.</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section philosophy animate-on-scroll">
+        <div className="container">
+          <div className="section-header">
+            <h2>Our Philosophy</h2>
+            <p>For us, coffee isn't just a drink—it's a way to make people feel at home.</p>
+          </div>
+          
+          <div className="philosophy-grid">
+            <div className="philosophy-card animate-on-scroll stagger-1">
+              <div className="philosophy-icon">☕</div>
+              <h3>Warmth</h3>
+              <p>Everyone who walks in isn't just a customer, but a friend. We believe in creating a welcoming atmosphere where every person feels valued and comfortable.</p>
+            </div>
+            
+            <div className="philosophy-card animate-on-scroll stagger-2">
+              <div className="philosophy-icon">🤝</div>
+              <h3>Hospitality</h3>
+              <p>We love remembering your name, your favorite order, and making every visit feel personal. True hospitality is about the connections we build with each guest.</p>
+            </div>
+            
+            <div className="philosophy-card animate-on-scroll stagger-3">
+              <div className="philosophy-icon">❤️</div>
+              <h3>Companionship</h3>
+              <p>Whether you're here to chill, laugh, or catch up, our café is your go-to spot. We're here to be part of your daily moments and special memories.</p>
             </div>
           </div>
         </div>
