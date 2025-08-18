@@ -168,7 +168,7 @@
   width: 1px;
   background: linear-gradient(180deg, #E8E4D9 0%, #D4CFC4 50%, #E8E4D9 100%);
   transform: translateX(-50%);
-  z-index: 0;
+  z-index: -1;
 }
 
 .timeline-item {
