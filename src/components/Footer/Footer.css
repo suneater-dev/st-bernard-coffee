@@ -42,7 +42,7 @@
   margin-top: 24px;
   flex-wrap: nowrap !important;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .footer .social-links a {
@@ -220,7 +220,7 @@
   }
   
   .footer .social-links {
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: nowrap !important;
     flex-direction: row !important;
     gap: 16px;
