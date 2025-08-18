@@ -64,6 +64,23 @@ const Header = () => {
             <Link to="/contact" className="nav-link">Contact</Link>
           </nav>
           
+          <div className="header-social">
+            <a href="https://www.instagram.com/st.bernardcoffee/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="social-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="social-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"/>
+                <path d="M9 10a3 3 0 0 0 6 0c0-1 0-1 0-1"/>
+                <path d="M15 9.4c0 .6-.4 1.6-1.5 2.6-1.1 1-2.5 1-2.5 1s-1.4 0-2.5-1C7.4 11 7 10 7 9.4"/>
+              </svg>
+            </a>
+          </div>
+          
           <button 
             className="mobile-menu-btn"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

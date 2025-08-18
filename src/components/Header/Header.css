@@ -122,6 +122,33 @@
   background-color: #F5F5DC;
 }
 
+.header-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 40px;
+}
+
+.social-icon {
+  color: #666666;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+
+.social-icon:hover {
+  color: #000000;
+  border-color: #E5E5E5;
+  background-color: rgba(0, 0, 0, 0.02);
+  transform: translateY(-1px);
+}
+
 .mobile-menu-btn {
   display: none;
   flex-direction: column;
@@ -195,6 +222,10 @@
   .dropdown-link {
     padding: 12px 40px;
     font-size: 14px;
+  }
+  
+  .header-social {
+    display: none;
   }
   
   .mobile-menu-btn {
