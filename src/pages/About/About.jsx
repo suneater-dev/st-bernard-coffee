@@ -146,7 +146,7 @@ const About = () => {
             <div className="cafe-card stagger-child animate-on-scroll stagger-1">
               <div className="cafe-image-container">
                 <Link to="/store/seminyak">
-                  <img src="/assets/Valley_Fair_Blue_Bottle_for_web.webp" alt="Valley Fair Location" className="cafe-image" />
+                  <img src="/assets/seminyak-store.webp" alt="Valley Fair Location" className="cafe-image" />
                 </Link>
               </div>
               <div className="cafe-info">
@@ -158,7 +158,7 @@ const About = () => {
             <div className="cafe-card stagger-child animate-on-scroll stagger-2">
               <div className="cafe-image-container">
                 <Link to="/store/amed">
-                  <img src="/assets/M7_LVUncommons_Desktop.jpg" alt="Uncommons Location" className="cafe-image" />
+                  <img src="/assets/amed-store.webp" alt="Uncommons Location" className="cafe-image" />
                 </Link>
               </div>
               <div className="cafe-info">
@@ -170,7 +170,7 @@ const About = () => {
             <div className="cafe-card stagger-child animate-on-scroll stagger-3">
               <div className="cafe-image-container">
                 <Link to="/store/sanur">
-                  <img src="/assets/Studio_City_BlueBottleCoffee.jpg" alt="Studio City Location" className="cafe-image" />
+                  <img src="/assets/sanur-store.webp" alt="Studio City Location" className="cafe-image" />
                 </Link>
               </div>
               <div className="cafe-info">

@@ -11,7 +11,7 @@ const Amed = () => {
   return (
     <div className="store-page">
       <section className="store-hero">
-        <img src="/assets/M7_LVUncommons_Desktop.jpg" alt="Amed Store" className="store-hero-image" />
+        <img src="/assets/amed-store.webp" alt="Amed Store" className="store-hero-image" />
         <div className="store-hero-overlay"></div>
         <div className="store-hero-content">
           <h1>AMED</h1>

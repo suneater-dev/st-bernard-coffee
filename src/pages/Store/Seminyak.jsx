@@ -11,7 +11,7 @@ const Seminyak = () => {
   return (
     <div className="store-page">
       <section className="store-hero">
-        <img src="/assets/Valley_Fair_Blue_Bottle_for_web.webp" alt="Seminyak Store" className="store-hero-image" />
+        <img src="/assets/seminyak-store.webp" alt="Seminyak Store" className="store-hero-image" />
         <div className="store-hero-overlay"></div>
         <div className="store-hero-content">
           <h1>SEMINYAK</h1>

@@ -11,7 +11,7 @@ const Sanur = () => {
   return (
     <div className="store-page">
       <section className="store-hero">
-        <img src="/assets/Studio_City_BlueBottleCoffee.jpg" alt="Sanur Store" className="store-hero-image" />
+        <img src="/assets/sanur-store.webp" alt="Sanur Store" className="store-hero-image" />
         <div className="store-hero-overlay"></div>
         <div className="store-hero-content">
           <h1>SANUR</h1>

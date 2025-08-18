@@ -25,7 +25,7 @@ const Menu = () => {
           <div className="menu-locations-grid">
             <div className="menu-location-card animate-on-scroll stagger-1">
               <div className="menu-location-image">
-                <img src="/assets/Valley_Fair_Blue_Bottle_for_web.webp" alt="Seminyak Location" />
+                <img src="/assets/seminyak-store.webp" alt="Seminyak Location" />
                 <div className="menu-location-overlay">
                   <h2>SEMINYAK MENU</h2>
                   <a href="https://drive.google.com/file/d/1Jj72puui6Rf1MEZXPmwTO-8dYCZRhOGN/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="menu-location-btn">View Full Menu</a>
@@ -35,7 +35,7 @@ const Menu = () => {
             
             <div className="menu-location-card animate-on-scroll stagger-2">
               <div className="menu-location-image">
-                <img src="/assets/M7_LVUncommons_Desktop.jpg" alt="Amed Location" />
+                <img src="/assets/amed-store.webp" alt="Amed Location" />
                 <div className="menu-location-overlay">
                   <h2>AMED MENU</h2>
                   <a href="https://drive.google.com/file/d/1Jj72puui6Rf1MEZXPmwTO-8dYCZRhOGN/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="menu-location-btn">View Full Menu</a>
@@ -45,7 +45,7 @@ const Menu = () => {
             
             <div className="menu-location-card animate-on-scroll stagger-3">
               <div className="menu-location-image">
-                <img src="/assets/Studio_City_BlueBottleCoffee.jpg" alt="Sanur Location" />
+                <img src="/assets/sanur-store.webp" alt="Sanur Location" />
                 <div className="menu-location-overlay">
                   <h2>SANUR MENU</h2>
                   <a href="https://drive.google.com/file/d/1Jj72puui6Rf1MEZXPmwTO-8dYCZRhOGN/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="menu-location-btn">View Full Menu</a>

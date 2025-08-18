@@ -8,7 +8,10 @@ const Home = () => {
   const slides = [
     '/assets/slide-1.jpg',
     '/assets/slide-2.jpg',
-    '/assets/slide-3.jpg'
+    '/assets/slide-3.jpg',
+    '/assets/slide-4.webp',
+    '/assets/slide-5.webp',
+    '/assets/slide-6.webp'
   ];
 
   useEffect(() => {
