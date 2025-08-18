@@ -1,0 +1,356 @@
+.menu {
+  margin-top: 80px;
+}
+
+/* Menu Hero Section */
+.menu-hero {
+  background-color: #FFFFFF;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.menu-hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 300;
+  color: #000000;
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.menu-hero-content p {
+  font-size: 20px;
+  color: #666666;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+/* Menu Locations Section */
+.menu-locations {
+  padding: 120px 0;
+  background: linear-gradient(180deg, #FFFFFF 0%, #fdfbf7 100%);
+}
+
+.menu-locations .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.menu-locations-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 80px;
+}
+
+.menu-location-card {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.menu-location-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.2);
+}
+
+.menu-location-image {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.menu-location-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.menu-location-card:hover .menu-location-image img {
+  transform: scale(1.05);
+  filter: brightness(0.9) contrast(1.1);
+}
+
+.menu-location-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.menu-location-card:hover .menu-location-overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
+.menu-location-overlay h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 300;
+  margin-bottom: 40px;
+  letter-spacing: 0.05em;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  animation: titleGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes titleGlow {
+  from {
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  to {
+    text-shadow: 0 4px 30px rgba(0, 0, 0, 0.7), 0 0 40px rgba(255, 255, 255, 0.1);
+  }
+}
+
+.menu-location-overlay p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+}
+
+.menu-location-btn {
+  display: inline-block;
+  padding: 16px 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-location-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.menu-location-btn:hover::before {
+  left: 100%;
+}
+
+.menu-location-btn:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  border-color: #000000;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Menu CTA Section */
+.menu-cta {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.menu-cta-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.menu-cta-content p {
+  font-size: 20px;
+  color: #CCCCCC;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.menu-cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-cta .btn {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid #FFFFFF;
+}
+
+.menu-cta .btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: translateY(-4px);
+}
+
+.menu-cta .btn-outline {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+
+.menu-cta .btn-outline:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu {
+    margin-top: 60px;
+  }
+  
+  .menu-hero {
+    padding: 60px 0;
+  }
+  
+  .menu-hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .menu-hero-content p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  
+  .menu-locations {
+    padding: 80px 0;
+  }
+  
+  .menu-locations .container {
+    padding: 0 20px;
+  }
+  
+  .menu-locations-grid {
+    gap: 60px;
+  }
+  
+  .menu-location-image {
+    height: 400px;
+  }
+  
+  .menu-location-overlay h2 {
+    font-size: 2.5rem;
+  }
+  
+  .menu-location-overlay p {
+    font-size: 14px;
+  }
+  
+  .menu-location-btn {
+    padding: 14px 32px;
+    font-size: 12px;
+  }
+  
+  .menu-cta {
+    padding: 80px 0;
+  }
+  
+  .menu-cta-content h2 {
+    font-size: 36px;
+  }
+  
+  .menu-cta-content p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  
+  .menu-cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-cta-buttons .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-locations-grid {
+    gap: 40px;
+  }
+  
+  .menu-location-image {
+    height: 350px;
+  }
+  
+  .menu-location-overlay h2 {
+    font-size: 2rem;
+  }
+  
+  .menu-location-overlay p {
+    font-size: 12px;
+  }
+  
+  .menu-location-btn {
+    padding: 12px 24px;
+    font-size: 11px;
+  }
+  
+  .menu-cta-content h2 {
+    font-size: 32px;
+  }
+  
+  .menu-cta-content p {
+    font-size: 16px;
+  }
+}
+
+/* Enhance animations for menu locations */
+.menu-location-card.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu-location-overlay h2 {
+  animation-delay: 0.5s;
+}
+
+.menu-location-overlay p {
+  animation-delay: 0.7s;
+}
+
+.menu-location-btn {
+  animation-delay: 0.9s;
+}
