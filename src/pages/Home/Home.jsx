@@ -57,7 +57,7 @@ const Home = () => {
         </div>
         <div className="hero-content">
           <h1><span>Built on Warmth,</span><br/><span>Brewed with Purpose</span></h1>
-          <p>Experience the finest single-origin coffee in Bali's most beautiful locations. From our flagship Seminyak store to our scenic coastal Amed location, discover exceptional coffee crafted with passion.</p>
+          <p>Inspired by the St. Bernard dog—an Alpine rescue icon known for its gentle nature, loyalty, and warmth—St. Bernard Coffee was created with the same spirit: to give warmth.</p>
           <div className="hero-buttons">
             <Link to="/menu" className="btn">Explore Menu</Link>
             <Link to="/store/seminyak" className="btn btn-outline">Visit Our Stores</Link>
@@ -139,7 +139,7 @@ const Home = () => {
             <div className="cafe-card stagger-child animate-on-scroll stagger-1">
               <div className="cafe-image-container">
                 <Link to="/store/seminyak">
-                  <img src="/assets/Valley_Fair_Blue_Bottle_for_web.webp" alt="Valley Fair Location" className="cafe-image" />
+                  <img src="/assets/seminyak-store.webp" alt="Seminyak Store" className="cafe-image" />
                 </Link>
               </div>
               <div className="cafe-info">
@@ -151,7 +151,7 @@ const Home = () => {
             <div className="cafe-card stagger-child animate-on-scroll stagger-2">
               <div className="cafe-image-container">
                 <Link to="/store/amed">
-                  <img src="/assets/M7_LVUncommons_Desktop.jpg" alt="Uncommons Location" className="cafe-image" />
+                  <img src="/assets/amed-store.webp" alt="Amed Store" className="cafe-image" />
                 </Link>
               </div>
               <div className="cafe-info">
@@ -163,7 +163,7 @@ const Home = () => {
             <div className="cafe-card stagger-child animate-on-scroll stagger-3">
               <div className="cafe-image-container">
                 <Link to="/store/sanur">
-                  <img src="/assets/Studio_City_BlueBottleCoffee.jpg" alt="Studio City Location" className="cafe-image" />
+                  <img src="/assets/sanur-store.webp" alt="Sanur Store" className="cafe-image" />
                 </Link>
               </div>
               <div className="cafe-info">
