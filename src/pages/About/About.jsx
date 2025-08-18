@@ -29,6 +29,51 @@ const About = () => {
         </div>
       </section>
 
+      <section className="section philosophy animate-on-scroll">
+        <div className="container">
+          <div className="section-header">
+            <h2>Our Philosophy</h2>
+            <p>For us, coffee isn't just a drink—it's a way to make people feel at home.</p>
+          </div>
+          
+          <div className="philosophy-grid">
+            <div className="philosophy-card animate-on-scroll stagger-1">
+              <div className="philosophy-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                  <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                  <line x1="6" y1="1" x2="6" y2="4"/>
+                  <line x1="10" y1="1" x2="10" y2="4"/>
+                  <line x1="14" y1="1" x2="14" y2="4"/>
+                </svg>
+              </div>
+              <h3>Warmth</h3>
+              <p>Everyone who walks in isn't just a customer, but a friend</p>
+            </div>
+            
+            <div className="philosophy-card animate-on-scroll stagger-2">
+              <div className="philosophy-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20 6L9 17l-5-5"/>
+                </svg>
+              </div>
+              <h3>Hospitality</h3>
+              <p>We love remembering your name and your favorite order</p>
+            </div>
+            
+            <div className="philosophy-card animate-on-scroll stagger-3">
+              <div className="philosophy-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+              </div>
+              <h3>Companionship</h3>
+              <p>Whether you're here to chill, laugh, or catch up</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section growth-story animate-on-scroll">
         <div className="container">
           <div className="section-header">
@@ -75,51 +120,6 @@ const About = () => {
                 <h3>Expansion & Innovation</h3>
                 <p>With proven success across three locations and growing recognition, we're positioned for strategic expansion while continuing to innovate our coffee experiences and sustainable practices.</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section philosophy animate-on-scroll">
-        <div className="container">
-          <div className="section-header">
-            <h2>Our Philosophy</h2>
-            <p>For us, coffee isn't just a drink—it's a way to make people feel at home.</p>
-          </div>
-          
-          <div className="philosophy-grid">
-            <div className="philosophy-card animate-on-scroll stagger-1">
-              <div className="philosophy-icon">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
-                  <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
-                  <line x1="6" y1="1" x2="6" y2="4"/>
-                  <line x1="10" y1="1" x2="10" y2="4"/>
-                  <line x1="14" y1="1" x2="14" y2="4"/>
-                </svg>
-              </div>
-              <h3>Warmth</h3>
-              <p>Everyone who walks in isn't just a customer, but a friend</p>
-            </div>
-            
-            <div className="philosophy-card animate-on-scroll stagger-2">
-              <div className="philosophy-icon">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M20 6L9 17l-5-5"/>
-                </svg>
-              </div>
-              <h3>Hospitality</h3>
-              <p>We love remembering your name and your favorite order</p>
-            </div>
-            
-            <div className="philosophy-card animate-on-scroll stagger-3">
-              <div className="philosophy-icon">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-                </svg>
-              </div>
-              <h3>Companionship</h3>
-              <p>Whether you're here to chill, laugh, or catch up</p>
             </div>
           </div>
         </div>
