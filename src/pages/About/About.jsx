@@ -20,7 +20,7 @@ const About = () => {
               
               <p>For centuries, St. Bernards were not only guardians but also companions who saved travelers trapped in the snow. They didn't just rescue; they offered comfort and warmth in the most critical moments. This legacy of care and companionship is what we bring into our coffee experience.</p>
               
-              <p>At St. Bernard Coffee, we're not just serving coffee—we're serving warmth, friendship, and a place where you truly belong. We've grown from a single location to three thriving cafés across Bali, elevating Indonesia's rich coffee heritage through modern brewing techniques while maintaining that essential spirit of warmth and hospitality that defines us.</p>
+              <p>At St. Bernard Coffee, we're not just serving coffee—we're serving warmth, friendship, and a place where you truly belong.</p>
             </div>
             <div className="story-image-container animate-on-scroll-right">
               <img src="/assets/seminyak-store.webp" alt="St. Bernard Coffee Heritage" className="story-image" />
