@@ -27,7 +27,7 @@ const Amed = () => {
               
               <div className="info-block">
                 <h3>Location</h3>
-                <p>Jl. Raya Amed<br/>Karangasem, Bali 80852</p>
+                <p>Jalan I Ketut Natih, Purwakerti<br/>Kecamatan Abang, Kabupaten Karangasem, Amed</p>
               </div>
               
               <div className="info-block">
@@ -44,8 +44,12 @@ const Amed = () => {
             </div>
             
             <div className="store-feature">
-              <h3>Ocean Views</h3>
-              <p>Escape to our serene Amed location where traditional Indonesian architecture harmoniously blends with spectacular ocean vistas. Built with locally sourced materials, our coastal gem offers panoramic views of the Lombok Strait.</p>
+              <h3>Expanding Our Horizons</h3>
+              <p>Our second coffee shop was officially opened on March 3rd, 2024, expanding our presence to the eastern coastline of Bali. Located right in the heart of Amed, a region celebrated for its natural beauty, diving spots, and serene coastal lifestyle.</p>
+              
+              <p>This branch was established to bring our passion for specialty coffee to a destination known for its laid-back charm and connection with nature. Unlike the bustling energy of Seminyak, Amed offers a more tranquil backdrop, and our coffee shop was thoughtfully designed to complement that atmosphere—providing a cozy refuge where both locals and travelers can slow down, recharge, and savor every cup.</p>
+              
+              <p>By opening in Amed, we extended our mission of creating spaces that blend high-quality coffee with community and culture. With its scenic location and welcoming design, this second outlet stands as a bridge between Bali's vibrant tourism and its authentic local character, offering guests a memorable coffee experience that resonates with the spirit of the island.</p>
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ const Seminyak = () => {
               
               <div className="info-block">
                 <h3>Location</h3>
-                <p>Jl. Raya Seminyak No. 15<br/>Seminyak, Bali 80361</p>
+                <p>Jalan Dewi Saraswati III, Lingkungan Basangkasa<br/>Seminyak, Bali</p>
               </div>
               
               <div className="info-block">
@@ -44,8 +44,10 @@ const Seminyak = () => {
             </div>
             
             <div className="store-feature">
-              <h3>Urban Coffee Culture</h3>
-              <p>Our flagship Seminyak location represents the pinnacle of coffee craftsmanship and design. Located in Bali's most vibrant district, this sophisticated space serves as our main hub for innovation and exceptional coffee experiences.</p>
+              <h3>Our Journey Begins</h3>
+              <p>Our first coffee shop was proudly opened on March 7th, 2023, marking the beginning of our journey in the specialty coffee industry. This inaugural branch was designed to embody our vision of creating more than just a place to drink coffee—it serves as a warm and inviting space where people can gather, connect, and enjoy high-quality coffee in a cozy atmosphere.</p>
+              
+              <p>Strategically positioned in Seminyak—a destination known for its blend of local culture, tourism, and lifestyle—our first outlet quickly became a hub for both residents and travelers seeking an authentic coffee experience. Every detail, from the carefully crafted menu to the thoughtful design of the space, reflects our commitment to delivering consistency, quality, and a sense of belonging to every guest who walks through our doors.</p>
             </div>
           </div>
         </div>
