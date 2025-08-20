@@ -189,6 +189,142 @@
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* Store Gallery Section */
+.store-gallery {
+  background-color: #FFFFFF;
+  padding: 120px 0;
+}
+
+.gallery-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.gallery-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 300;
+  color: #000000;
+  margin-bottom: 20px;
+  letter-spacing: -0.02em;
+}
+
+.gallery-header p {
+  font-size: 18px;
+  color: #666666;
+  max-width: 600px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  border-radius: 4px;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #f8f6f0 0%, #fdfbf7 50%, #f5f3ed 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-placeholder::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-placeholder::before {
+  opacity: 1;
+}
+
+.placeholder-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.gallery-item:hover .placeholder-content {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.placeholder-content svg {
+  color: #666666;
+  stroke-width: 1;
+}
+
+.placeholder-content span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Gallery Responsive Design */
+@media (max-width: 768px) {
+  .store-gallery {
+    padding: 80px 0;
+  }
+  
+  .gallery-header {
+    margin-bottom: 60px;
+  }
+  
+  .gallery-header h2 {
+    font-size: 36px;
+  }
+  
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .placeholder-content span {
+    font-size: 12px;
+  }
+}
+
 /* Google Maps Section */
 .store-map {
   background-color: #f8f8f8;

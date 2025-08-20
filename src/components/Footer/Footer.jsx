@@ -28,7 +28,6 @@ const Footer = () => {
             <ul>
               <li><Link to="/store/seminyak">St Bernard Seminyak</Link></li>
               <li><Link to="/store/amed">St Bernard Amed</Link></li>
-              <li><Link to="/store/sanur">St Bernard Sanur</Link></li>
             </ul>
           </div>
 

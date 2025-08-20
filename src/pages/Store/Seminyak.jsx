@@ -53,6 +53,86 @@ const Seminyak = () => {
         </div>
       </section>
 
+      <section className="store-gallery">
+        <div className="container">
+          <div className="gallery-header">
+            <h2>Gallery</h2>
+            <p>Explore the atmosphere and design of our Seminyak flagship</p>
+          </div>
+          <div className="gallery-grid">
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                    <circle cx="9" cy="9" r="2"/>
+                    <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+                  </svg>
+                  <span>Interior Design</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                    <line x1="6" y1="1" x2="6" y2="4"/>
+                    <line x1="10" y1="1" x2="10" y2="4"/>
+                    <line x1="14" y1="1" x2="14" y2="4"/>
+                  </svg>
+                  <span>Coffee Culture</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                    <circle cx="12" cy="7" r="4"/>
+                  </svg>
+                  <span>Community Space</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                  <span>Signature Drinks</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                    <circle cx="12" cy="12" r="3"/>
+                  </svg>
+                  <span>Street View</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="3"/>
+                    <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"/>
+                  </svg>
+                  <span>Ambiance</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="store-map">
         <div className="container">
           <div className="map-header">

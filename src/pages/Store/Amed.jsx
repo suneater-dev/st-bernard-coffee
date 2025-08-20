@@ -55,6 +55,88 @@ const Amed = () => {
         </div>
       </section>
 
+      <section className="store-gallery">
+        <div className="container">
+          <div className="gallery-header">
+            <h2>Gallery</h2>
+            <p>Discover the tranquil beauty and coastal charm of our Amed location</p>
+          </div>
+          <div className="gallery-grid">
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                  </svg>
+                  <span>Ocean Views</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                    <line x1="6" y1="1" x2="6" y2="4"/>
+                    <line x1="10" y1="1" x2="10" y2="4"/>
+                    <line x1="14" y1="1" x2="14" y2="4"/>
+                  </svg>
+                  <span>Coastal Coffee</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    <polyline points="9,22 9,12 15,12 15,22"/>
+                  </svg>
+                  <span>Traditional Design</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10"/>
+                    <circle cx="12" cy="12" r="6"/>
+                    <circle cx="12" cy="12" r="2"/>
+                  </svg>
+                  <span>Serene Atmosphere</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 2v20"/>
+                    <path d="M2 12h20"/>
+                    <path d="M8 8l8 8"/>
+                    <path d="M16 8l-8 8"/>
+                  </svg>
+                  <span>Diving Culture</span>
+                </div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-placeholder">
+                <div className="placeholder-content">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M8 4.5L12 2l4 2.5v4.24a6 6 0 0 1-2.4 4.8L12 16l-1.6-2.46A6 6 0 0 1 8 8.74V4.5z"/>
+                    <circle cx="12" cy="9" r="2"/>
+                  </svg>
+                  <span>Local Heritage</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="store-map">
         <div className="container">
           <div className="map-header">

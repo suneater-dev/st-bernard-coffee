@@ -8,7 +8,6 @@ import Menu from './pages/Menu/Menu';
 import Contact from './pages/Contact/Contact';
 import Seminyak from './pages/Store/Seminyak';
 import Amed from './pages/Store/Amed';
-import Sanur from './pages/Store/Sanur';
 import './App.css';
 
 function App() {
@@ -25,7 +24,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/store/seminyak" element={<Seminyak />} />
             <Route path="/store/amed" element={<Amed />} />
-            <Route path="/store/sanur" element={<Sanur />} />
           </Routes>
         </main>
         <Footer />

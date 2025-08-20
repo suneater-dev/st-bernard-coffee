@@ -57,7 +57,6 @@ const Header = () => {
               <div className={`dropdown-menu ${isStoreDropdownOpen ? 'dropdown-menu-open' : ''}`}>
                 <Link to="/store/seminyak" className="dropdown-link">Seminyak</Link>
                 <Link to="/store/amed" className="dropdown-link">Amed</Link>
-                <Link to="/store/sanur" className="dropdown-link">Sanur</Link>
               </div>
             </div>
             
