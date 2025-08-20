@@ -201,8 +201,8 @@
 }
 
 .cafe-locator .container {
-  max-width: 100%;
-  padding: 0 40px;
+  max-width: none;
+  padding: 0 60px;
 }
 
 .cafe-locator-header {
@@ -272,8 +272,10 @@
 
 .cafe-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  max-width: none;
+  margin: 0;
 }
 
 .cafe-card {
@@ -294,7 +296,7 @@
 
 .cafe-image {
   width: 100%;
-  height: 400px;
+  height: 500px;
   object-fit: cover;
   border-radius: 0;
   transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);

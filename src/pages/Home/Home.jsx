@@ -161,17 +161,6 @@ const Home = () => {
               </div>
             </div>
             
-            <div className="cafe-card stagger-child animate-on-scroll stagger-3">
-              <div className="cafe-image-container">
-                <Link to="/store/sanur">
-                  <img src="/assets/sanur-store.webp" alt="Sanur Store" className="cafe-image" />
-                </Link>
-              </div>
-              <div className="cafe-info">
-                <h3 className="cafe-name">ST BERNARD SANUR</h3>
-                <p className="cafe-address">Jl. Pantai Sanur Beach Walk<br/>Sanur, Bali 80228</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
