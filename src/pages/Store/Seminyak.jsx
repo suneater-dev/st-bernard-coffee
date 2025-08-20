@@ -68,7 +68,7 @@ const Seminyak = () => {
         <div className="container">
           <div className="store-info-grid">
             <div className="store-location-info">
-              <h2>Our Flagship</h2>
+              <h2>Seminyak Outlet</h2>
               
               <div className="info-block">
                 <h3>Location</h3>

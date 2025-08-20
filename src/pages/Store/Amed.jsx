@@ -68,7 +68,7 @@ const Amed = () => {
         <div className="container">
           <div className="store-info-grid">
             <div className="store-location-info">
-              <h2>Coastal Serenity</h2>
+              <h2>Amed Outlet</h2>
               
               <div className="info-block">
                 <h3>Location</h3>
