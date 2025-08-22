@@ -15,7 +15,7 @@ const Menu = () => {
         <div className="container">
           <div className="menu-hero-content animate-on-scroll">
             <h1>Our Menu</h1>
-            <p>Discover exceptional coffee and culinary experiences at each of our three premium locations</p>
+            <p>Discover exceptional coffee and culinary experiences at each of our two premium locations</p>
           </div>
         </div>
       </section>
@@ -38,20 +38,11 @@ const Menu = () => {
                 <img src="/assets/amed-store.webp" alt="Amed Location" />
                 <div className="menu-location-overlay">
                   <h2>AMED MENU</h2>
-                  <a href="https://drive.google.com/file/d/1Jj72puui6Rf1MEZXPmwTO-8dYCZRhOGN/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="menu-location-btn">View Full Menu</a>
+                  <a href="https://drive.google.com/drive/folders/13NZIVXqsmkgHdcGC74UencAVr9RkNWfG" target="_blank" rel="noopener noreferrer" className="menu-location-btn">View Full Menu</a>
                 </div>
               </div>
             </div>
             
-            <div className="menu-location-card animate-on-scroll stagger-3">
-              <div className="menu-location-image">
-                <img src="/assets/sanur-store.webp" alt="Sanur Location" />
-                <div className="menu-location-overlay">
-                  <h2>SANUR MENU</h2>
-                  <a href="https://drive.google.com/file/d/1Jj72puui6Rf1MEZXPmwTO-8dYCZRhOGN/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="menu-location-btn">View Full Menu</a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

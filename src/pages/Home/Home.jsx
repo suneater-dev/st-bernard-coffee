@@ -165,18 +165,19 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="section-xl contact-preview animate-on-scroll">
+      <section className="section about-cta animate-on-scroll">
         <div className="container">
-          <div className="contact-preview-content">
-            <h2>Connect With Us</h2>
-            <p>Ready to experience exceptional coffee? Visit any of our locations or get in touch to learn more about our expansion opportunities.</p>
-            <div className="contact-buttons">
-              <Link to="/contact" className="btn">Get In Touch</Link>
-              <a href="https://wa.me/6281234567890" className="btn btn-outline" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+          <div className="about-cta-content">
+            <h2>Experience St. Bernard Coffee</h2>
+            <p>Ready to taste the difference that passion and craftsmanship make? Visit one of our locations or explore our full menu of signature drinks and fresh offerings.</p>
+            <div className="about-cta-buttons">
+              <Link to="/menu" className="btn">Explore Our Menu</Link>
+              <Link to="/contact" className="btn btn-outline">Get In Touch</Link>
             </div>
           </div>
         </div>
       </section>
+
     </div>
   );
 };

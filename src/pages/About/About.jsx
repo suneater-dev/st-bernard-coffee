@@ -84,64 +84,37 @@ const About = () => {
           <div className="timeline">
             <div className="timeline-item animate-on-scroll stagger-1">
               <div className="timeline-marker">
-                <div className="timeline-year">2019</div>
+                <div className="timeline-year">2023</div>
               </div>
               <div className="timeline-content">
-                <h3>Seminyak Flagship Opens</h3>
-                <p>Our journey began with our flagship location in Seminyak, quickly becoming a favorite among locals and tourists for its exceptional coffee and sophisticated atmosphere.</p>
+                <h3>St Bernard Seminyak</h3>
+                <p>Our flagship location opened in the heart of Seminyak, creating a warm gathering space for locals and travelers to connect over specialty coffee.</p>
               </div>
             </div>
             
             <div className="timeline-item animate-on-scroll stagger-2">
               <div className="timeline-marker">
-                <div className="timeline-year">2021</div>
+                <div className="timeline-year">2024</div>
               </div>
               <div className="timeline-content">
-                <h3>Amed Coastal Expansion</h3>
-                <p>Recognizing the demand for quality coffee across Bali, we opened our scenic Amed location, combining breathtaking ocean views with our signature coffee experience.</p>
+                <h3>St Bernard Amed</h3>
+                <p>Expanded to Bali's serene eastern coast, bringing our passion for quality coffee to the diving community and nature lovers in this tranquil coastal setting.</p>
               </div>
             </div>
             
-            
-            <div className="timeline-item animate-on-scroll stagger-4">
+            <div className="timeline-item animate-on-scroll stagger-3">
               <div className="timeline-marker">
                 <div className="timeline-year">2025</div>
               </div>
               <div className="timeline-content">
-                <h3>Expansion & Innovation</h3>
-                <p>With proven success across three locations and growing recognition, we're positioned for strategic expansion while continuing to innovate our coffee experiences and sustainable practices.</p>
+                <h3>St Bernard Sanur (In Progress)</h3>
+                <p>Our third location currently under development, continuing our growth across Bali's diverse landscapes.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section team animate-on-scroll">
-        <div className="container">
-          <div className="section-header">
-            <h2>Leadership Team</h2>
-            <p>Meet the visionaries behind St. Bernard Coffee's success</p>
-          </div>
-          
-          <div className="team-list">
-            <div className="team-member animate-on-scroll stagger-1">
-              <div className="team-info">
-                <h3>Marcus St. Bernard</h3>
-                <p className="team-title">Founder & CEO</p>
-                <p className="team-description">With over 15 years in the hospitality industry and a passion for specialty coffee, Marcus founded St. Bernard Coffee to bridge the gap between traditional Indonesian coffee culture and modern café experiences. His vision has guided the company's strategic growth and commitment to excellence.</p>
-              </div>
-            </div>
-            
-            <div className="team-member animate-on-scroll stagger-2">
-              <div className="team-info">
-                <h3>Sarah Mitchell</h3>
-                <p className="team-title">Head of Operations</p>
-                <p className="team-description">Sarah brings extensive experience in multi-location retail operations and sustainable supply chain management. She oversees our quality standards, supplier relationships, and expansion planning, ensuring consistent excellence across all locations.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="cafe-locator animate-on-scroll">
         <div className="container">
@@ -178,18 +151,19 @@ const About = () => {
         </div>
       </section>
 
-      <section className="section about-cta animate-on-scroll">
+      <section className="section-xl contact-preview animate-on-scroll">
         <div className="container">
-          <div className="about-cta-content">
-            <h2>Experience St. Bernard Coffee</h2>
-            <p>Ready to taste the difference that passion and craftsmanship make? Visit one of our locations or explore our full menu of signature drinks and fresh offerings.</p>
-            <div className="about-cta-buttons">
-              <Link to="/menu" className="btn">Explore Our Menu</Link>
-              <Link to="/contact" className="btn btn-outline">Get In Touch</Link>
+          <div className="contact-preview-content">
+            <h2>Connect With Us</h2>
+            <p>Ready to experience exceptional coffee? Visit any of our locations or get in touch to learn more about our expansion opportunities.</p>
+            <div className="contact-buttons">
+              <Link to="/contact" className="btn">Get In Touch</Link>
+              <a href="https://wa.me/628232801099" className="btn btn-outline" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
             </div>
           </div>
         </div>
       </section>
+
     </div>
   );
 };

@@ -112,18 +112,21 @@ const Contact = () => {
               <div className="contact-info-block">
                 <h3>Get in Touch</h3>
                 <div className="info-item">
-                  <span className="info-label">General</span>
-                  <p>hello@stbernardcoffee.com<br/>+62 812 3456 7890</p>
+                  <span className="info-label">Email</span>
+                  <p>office@stbernardcoffee.com</p>
                 </div>
                 
                 <div className="info-item">
-                  <span className="info-label">Business</span>
-                  <p>partnerships@stbernardcoffee.com<br/>+62 811 2345 6789</p>
+                  <span className="info-label">Response Time</span>
+                  <p>We typically respond within 24 hours</p>
                 </div>
                 
                 <div className="info-item">
-                  <span className="info-label">Investment</span>
-                  <p>investors@stbernardcoffee.com<br/>+62 813 4567 8901</p>
+                  <span className="info-label">Visit Our Locations</span>
+                  <p>
+                    <strong>Seminyak:</strong> +62 823-2880-1099<br/>
+                    <strong>Amed:</strong> +62 821-4414-4967
+                  </p>
                 </div>
               </div>
               
@@ -136,7 +139,7 @@ const Contact = () => {
                   <a href="https://facebook.com/stbernardcoffee" target="_blank" rel="noopener noreferrer" className="social-link">
                     Facebook
                   </a>
-                  <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="social-link">
+                  <a href="https://wa.me/628232801099" target="_blank" rel="noopener noreferrer" className="social-link">
                     WhatsApp
                   </a>
                 </div>
@@ -153,11 +156,6 @@ const Contact = () => {
           </div>
           
           <div className="faq-list">
-            <div className="faq-item animate-on-scroll stagger-1">
-              <h4>Do you offer catering services?</h4>
-              <p>Yes, we provide catering for corporate events and special occasions with our signature beverages and gourmet options.</p>
-            </div>
-            
             <div className="faq-item animate-on-scroll stagger-2">
               <h4>Can I book private events?</h4>
               <p>All locations accommodate private events during designated hours. Our Seminyak flagship has dedicated private spaces.</p>

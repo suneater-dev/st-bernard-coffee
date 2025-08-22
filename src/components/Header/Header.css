@@ -43,6 +43,12 @@
   margin: 0;
 }
 
+.logo-image {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
 .nav {
   display: flex;
   align-items: center;

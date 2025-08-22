@@ -60,7 +60,6 @@ const Seminyak = () => {
         <div className="store-hero-overlay"></div>
         <div className="store-hero-content">
           <h1>SEMINYAK</h1>
-          <p>Flagship Location</p>
         </div>
       </section>
 
@@ -72,17 +71,17 @@ const Seminyak = () => {
               
               <div className="info-block">
                 <h3>Location</h3>
-                <p>Jalan Dewi Saraswati III, Lingkungan Basangkasa<br/>Seminyak, Bali</p>
+                <p>Jl. Dewi Saraswati 3, lingkungan Jl. Raya Basangkasa<br/>Seminyak, Bali</p>
               </div>
               
               <div className="info-block">
                 <h3>Hours</h3>
-                <p><span className="highlight">Daily:</span> 7:00 AM - 10:00 PM<br/><span className="highlight">Kitchen:</span> 7:00 AM - 9:30 PM</p>
+                <p><span className="highlight">Daily:</span> 7:00 AM - 5:00 PM</p>
               </div>
               
               <div className="info-block">
                 <h3>Contact</h3>
-                <p><span className="highlight">Phone:</span> +62 361 8123 456<br/><span className="highlight">WhatsApp:</span> +62 812 3456 7890</p>
+                <p><span className="highlight">Phone:</span> +62 823-2880-1099<br/><span className="highlight">WhatsApp:</span> +62 823-2880-1099</p>
               </div>
               
               <a href="https://drive.google.com/file/d/1Jj72puui6Rf1MEZXPmwTO-8dYCZRhOGN/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="menu-link">View Menu</a>
@@ -128,7 +127,7 @@ const Seminyak = () => {
           </div>
           <div className="map-container">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.2!2d115.16!3d-8.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwNDAnNDguMCJTIDExNcKwMDknMzYuMCJF!5e0!3m2!1sen!2sid!4v1635123456789!5m2!1sen!2sid&q=Seminyak+Bali" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.2!2d115.1723713!3d-8.6861885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2476bdd6c184d:0x7d6575afaef71cc1!2sst.%20bernard%20coffee!5e0!3m2!1sen!2sid!4v1635123456789!5m2!1sen!2sid" 
               allowFullScreen="" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
@@ -144,8 +143,8 @@ const Seminyak = () => {
             <h2>Visit Our Flagship</h2>
             <p>Experience the energy of Seminyak with exceptional coffee and sophisticated atmosphere</p>
             <div className="cta-buttons">
-              <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="cta-btn">Reserve Table</a>
-              <a href="https://www.google.com/maps/dir//Jl.+Raya+Seminyak+No.+15,+Seminyak,+Kuta,+Badung+Regency,+Bali+80361" target="_blank" rel="noopener noreferrer" className="cta-btn-outline">Get Directions</a>
+              <a href="https://wa.me/628232801099" target="_blank" rel="noopener noreferrer" className="cta-btn">Reserve Table</a>
+              <a href="https://www.google.com/maps/place/st.+bernard+coffee/@-8.6861832,115.169791,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd2476bdd6c184d:0x7d6575afaef71cc1!8m2!3d-8.6861885!4d115.1723713!16s%2Fg%2F11sjyw2d_3?entry=tts" target="_blank" rel="noopener noreferrer" className="cta-btn-outline">Get Directions</a>
             </div>
           </div>
         </div>
