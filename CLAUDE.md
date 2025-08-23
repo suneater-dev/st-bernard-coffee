@@ -68,12 +68,14 @@ src/
 - **Instagram**: https://www.instagram.com/st.bernardcoffee/?hl=en
 - **WhatsApp**: https://api.whatsapp.com/send/?phone=6282328801099&text&type=phone_number&app_absent=0
 
-## Recent Updates (Latest Commit: bc90ba6)
+## Recent Updates (Latest Commit: f1eb6af)
 
 ### Major Changes Made:
 1. **Header Updates**
    - Replaced text logo with image logo (`stbernardlogo.PNG`)
    - Updated WhatsApp link to use API format with Seminyak number
+   - **Mobile Navigation Fixes**: Added auto-close functionality to burger menu when nav items clicked
+   - **Mobile Dropdown Alignment**: Fixed store dropdown alignment (reduced padding from 40px to 20px)
 
 2. **Store Information**
    - Changed hours from varied times to consistent 7AM-5PM for both locations
@@ -104,6 +106,15 @@ src/
    - Changed title from "Vite + React" to "ST Bernard Coffee"
    - Added custom favicon with bold "B" letter in Playfair Display font
 
+8. **Address Consistency**
+   - Updated all location addresses in Our Locations sections to match store pages
+   - Fixed Seminyak and Amed addresses across Home and About pages
+
+9. **Homepage Images**
+   - Changed Our Story section image to `ourstory.PNG`
+   - Reduced hero slider from 6 to 3 slides (removed slide-1, slide-2, slide-3)
+   - Fixed image path case sensitivity issue
+
 ### Files Modified:
 - `src/components/Header/Header.jsx` & `.css`
 - `src/components/Footer/Footer.jsx`
@@ -116,6 +127,7 @@ src/
 - `index.html`
 - `public/favicon.svg` (new)
 - `public/assets/stbernardlogo.PNG` (new)
+- `public/assets/ourstory.PNG` (new)
 
 ## Known Issues/TODOs
 - Contact form currently only shows alert - no actual email sending (intentionally left for later)
@@ -136,5 +148,5 @@ src/
 Inspired by St. Bernard rescue dogs known for their gentle nature, loyalty, and warmth. The brand focuses on creating warm, welcoming spaces for both locals and travelers to connect over specialty coffee. Started in Seminyak's vibrant tourism scene, expanded to Amed's tranquil coastal setting, with plans for Sanur location.
 
 ---
-**Last Updated**: August 22, 2025
-**Current Version**: bc90ba6
+**Last Updated**: August 23, 2025
+**Current Version**: f1eb6af
