@@ -30,18 +30,22 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [lastScrollY]);
 
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <header className={`header ${isHeaderVisible ? 'header-visible' : 'header-hidden'}`}>
       <div className="container">
         <div className="header-content">
-          <Link to="/" className="logo">
+          <Link to="/" className="logo" onClick={closeMobileMenu}>
             <img src="/assets/stbernardlogo.PNG" alt="St. Bernard Coffee" className="logo-image" />
           </Link>
           
           <nav className={`nav ${isMobileMenuOpen ? 'nav-open' : ''}`}>
-            <Link to="/" className="nav-link">Home</Link>
-            <Link to="/about" className="nav-link">About Us</Link>
-            <Link to="/menu" className="nav-link">Menu</Link>
+            <Link to="/" className="nav-link" onClick={closeMobileMenu}>Home</Link>
+            <Link to="/about" className="nav-link" onClick={closeMobileMenu}>About Us</Link>
+            <Link to="/menu" className="nav-link" onClick={closeMobileMenu}>Menu</Link>
             
             <div 
               className="dropdown"
@@ -55,12 +59,12 @@ const Header = () => {
                 </svg>
               </span>
               <div className={`dropdown-menu ${isStoreDropdownOpen ? 'dropdown-menu-open' : ''}`}>
-                <Link to="/store/seminyak" className="dropdown-link">Seminyak</Link>
-                <Link to="/store/amed" className="dropdown-link">Amed</Link>
+                <Link to="/store/seminyak" className="dropdown-link" onClick={closeMobileMenu}>Seminyak</Link>
+                <Link to="/store/amed" className="dropdown-link" onClick={closeMobileMenu}>Amed</Link>
               </div>
             </div>
             
-            <Link to="/contact" className="nav-link">Contact</Link>
+            <Link to="/contact" className="nav-link" onClick={closeMobileMenu}>Contact</Link>
           </nav>
           
           <div className="header-social">

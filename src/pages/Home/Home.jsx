@@ -145,7 +145,7 @@ const Home = () => {
               </div>
               <div className="cafe-info">
                 <h3 className="cafe-name">ST BERNARD SEMINYAK</h3>
-                <p className="cafe-address">Jl. Oberoi, Seminyak Beach<br/>Seminyak, Bali 80361</p>
+                <p className="cafe-address">Jl. Dewi Saraswati 3, lingkungan Jl. Raya Basangkasa<br/>Seminyak, Bali</p>
               </div>
             </div>
             
@@ -157,7 +157,7 @@ const Home = () => {
               </div>
               <div className="cafe-info">
                 <h3 className="cafe-name">ST BERNARD AMED</h3>
-                <p className="cafe-address">Jl. Raya Amed Beach Road<br/>Amed, Bali 80852</p>
+                <p className="cafe-address">Jl. I Ketut Natih, Purwakerti, Kec. Abang<br/>Kabupaten Karangasem, Bali 80852</p>
               </div>
             </div>
             
