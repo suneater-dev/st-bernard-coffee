@@ -73,7 +73,7 @@ const Home = () => {
               <Link to="/about" className="btn">Learn More About Us</Link>
             </div>
             <div className="about-image animate-on-scroll-right">
-              <img src="/assets/ourstory.png" alt="St. Bernard Coffee" className="about-logo-image" />
+              <img src="/assets/ourstory.PNG" alt="St. Bernard Coffee" className="about-logo-image" />
             </div>
           </div>
         </div>
