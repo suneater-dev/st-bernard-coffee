@@ -6,9 +6,6 @@ import './Home.css';
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    '/assets/slide-1.jpg',
-    '/assets/slide-2.jpg',
-    '/assets/slide-3.jpg',
     '/assets/slide-4.webp',
     '/assets/slide-5.webp',
     '/assets/slide-6.webp'
@@ -76,7 +73,7 @@ const Home = () => {
               <Link to="/about" className="btn">Learn More About Us</Link>
             </div>
             <div className="about-image animate-on-scroll-right">
-              <img src="/assets/logo.png" alt="St. Bernard Coffee" className="about-logo-image" />
+              <img src="/assets/ourstory.png" alt="St. Bernard Coffee" className="about-logo-image" />
             </div>
           </div>
         </div>
